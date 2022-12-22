@@ -60,7 +60,7 @@ function CreatePoll() {
           alert("POLL CREATED SUCCESSFULLY !!!");
         })
         .catch((e) => {
-          console.log(e.message);
+          console.log(e);
           alert(
             "Oops, something came up !!!, please ensure you filled the form correctly. " +
               e.message
@@ -193,7 +193,7 @@ function CreatePoll() {
                                         </div>
                                     </div>
                                 </div> */}
-{/* 
+                {/* 
                 <div className="mb-4">
                   <Label>Poll Type</Label>
                   <span className="mr-4">

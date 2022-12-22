@@ -58,16 +58,15 @@ function Login() {
   return (
     <>
       <Head>
-        <title>Vote3Win | Login</title>
+        <title>DigiVoteAl | Login</title>
       </Head>
       <div className="grid xl:grid-cols-2 gap-40 pt-24 whole-bg px-32 gap-y-0.5">
-      
         <div className="bg-white box-s p-10 py-20 text-center">
           {!pressed ? (
             <div className="card">
-              <Image src={logo} width={300} height={300} alt="" />
+              {/* <Image src={logo} width={300} height={300} alt="" /> */}
               <h1 className="t-color text-4xl">
-                <b>Vote3Win</b>
+                <b>DigiVoteAl</b>
               </h1>
               <div className="mt-10">
                 <label>Network : </label>

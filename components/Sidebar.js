@@ -59,8 +59,8 @@ function Sidebar() {
           <div className="flex justify-between">
             <Link href="/">
               <a className="text-primary flex items-center font-bold">
-                <Image src={logo} width={80} height={80} />
-                Vote3Win
+                {/* <Image src={logo} width={80} height={80} /> */}
+                DigiVoteAl
               </a>
             </Link>
 

@@ -16,7 +16,9 @@ const getUrl = (chainId) => {
 const getContractAddress = (chainId) => {
   switch (chainId) {
     case 80001:
-      return "0xF4076f717C8E5677c49b589C4b935239C9f46A64";
+      return "0x7466650303DD0e9a56aFD478061F037245270AeF";
+    // return "0xed447a4F2aDE67E9fFcf4f46745c51460a0C261d";
+    // return "0xF4076f717C8E5677c49b589C4b935239C9f46A64";
     default:
       throw new Error("Invalid network");
   }
